@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+}
+
+.header-image-container{
+    background-color: #000000;
+    position: relative;
+    width: 100%;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBHMdazTgWw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWmYmRlV9Su1caiTVo.woff) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+.site-title {
+    position: absolute;
+    font-family: 'Roboto Slab';
+    font-size: 90px;
+    font-weight:100;
+    top: 30px;
+    left: 180px;
+    margin: 0;    
+}
+
+.site-title a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.content {
+    font-family: 'Roboto'
+}
+
+.filter-container {
+    padding: 10px;
+}
+
+aside {
+    margin: 5px;
+    background-color: #efefef;
+    width: 200px;
+    height: 400px;
+}
+
+.filter-input-container {
+    margin-bottom: 20px;
+}
+
+#filter-text {
+    position: absolute;
+    width: 146px;
+    top: 238px;
+    left: 50px;
+}
+
+#filter-min-price {
+    width: 57px;
+    position: absolute;
+    top: 277px;
+    left: 56px;
+}
+
+#filter-max-price {
+    width: 57px;
+    position: absolute;
+    top: 277px;
+    left: 130px;
+}
+
+#filter-city {
+    width: 153px;
+    position: absolute;
+    top: 316px;
+    left: 50px;
+}
+
+#filter-update-button {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+    width: 180px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 7px;
+    position: absolute;
+    left: 23px;
+    top: 513px;
+    cursor: pointer;
+}
+
+#filter-update-button:hover {
+    background-color: #f3d0b5;
+    color: #000000;
+}
+
+#posts {
+    position: absolute;
+    top: 160px;
+    left: 250px;
+    margin: 5px;
+    margin-top: 13px;
+    width: 100%;
+    max-width: 1250px;
+    height:auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+
+.post {
+   width: 305px;
+   height: 305px;
+   padding: 40px;
+   margin: 10px;
+   border: 0.25px solid black;
+   position: relative;
+}
+
+.post-image-container {
+    max-height: 350px;
+    text-align:center;
+}
+
+img {
+    max-height: 280px;
+    max-width: 100%;
+    text-align:center;
+    margin-bottom: 18px;
+}
+
+.post-info-container a{
+    text-decoration: none;
+    color: #f67a27;
+    cursor:pointer;
+}
+
+.post-price {
+    border: 0.20px solid black;
+    background-color: #efefef;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#sell-something-button {
+    background-color: #f67811;
+    width: 55px;
+    height: 55px;
+    border: 1px #f67811;
+    border-radius: 100px;
+    color:#efefef;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.4);
+}
+
+#sell-something-button:hover {
+    transform: scale(1.05);
+}
+
+.post-title:hover {
+    text-decoration: underline;
+}
+
+
+/*
+ * You should write your CSS in this file.  Don't forget to add your name and
+ * @oregonstate.edu email address below.
+ *
+ * name: Aden Wong
+ * email: wongaden@oregonstate.edu
+ */
